@@ -179,8 +179,8 @@ def simulate_traffic_system():
     traffic_events = ["Heavy Traffic", "Moderate Traffic", "Light Traffic"]
     violation_types = ["Speeding", "Running Red Light", "Illegal Turn"]
     
-    # Simulate 10 traffic updates
-    for _ in range(10):
+    # Simulate 8 traffic updates
+    for _ in range(8):
         event1 = random.choice(traffic_events)
         event2 = random.choice(traffic_events)
         
